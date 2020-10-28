@@ -1,0 +1,30 @@
+﻿<Window
+    x:Class="FingerWIndowsServiceInstaller.FingerWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:FingerWIndowsServiceInstaller"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="window"
+    Title="FingerWindow"
+    AllowsTransparency="True"
+    Background="Transparent"
+    Opacity="1"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+    mc:Ignorable="d">
+    <Grid>
+        <Border
+            Width="380"
+            Height="60"
+            Background="Red"
+            CornerRadius="10">
+            <Label
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Content="{Binding FingerWindowContent, ElementName=window}"
+                FontSize="25"
+                FontWeight="Bold" />
+        </Border>
+    </Grid>
+</Window>
