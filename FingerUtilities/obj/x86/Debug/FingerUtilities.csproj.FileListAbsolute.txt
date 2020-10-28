@@ -1,8 +1,0 @@
-D:\WondersSpace\指纹仪对接项目\FingerWindowsService\FingerUtilities\bin\x86\Debug\FingerUtilities.dll
-D:\WondersSpace\指纹仪对接项目\FingerWindowsService\FingerUtilities\bin\x86\Debug\FingerUtilities.pdb
-D:\WondersSpace\指纹仪对接项目\FingerWindowsService\FingerUtilities\bin\x86\Debug\log4net.dll
-D:\WondersSpace\指纹仪对接项目\FingerWindowsService\FingerUtilities\bin\x86\Debug\log4net.xml
-D:\WondersSpace\指纹仪对接项目\FingerWindowsService\FingerUtilities\obj\x86\Debug\FingerUtilities.csproj.CoreCompileInputs.cache
-D:\WondersSpace\指纹仪对接项目\FingerWindowsService\FingerUtilities\obj\x86\Debug\FingerUtilities.csproj.CopyComplete
-D:\WondersSpace\指纹仪对接项目\FingerWindowsService\FingerUtilities\obj\x86\Debug\FingerUtilities.dll
-D:\WondersSpace\指纹仪对接项目\FingerWindowsService\FingerUtilities\obj\x86\Debug\FingerUtilities.pdb
