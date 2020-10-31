@@ -3,3 +3,12 @@
 ################################################################################
 
 /FingerUtilities/obj/x86/Debug
+/FingerUtilities/bin/x86/Debug
+/FingerWcfService/bin/x86/Debug
+/FingerWcfService/obj/x86/Debug
+/FingerWindowsService/bin/x86/Debug
+/FingerWindowsService/obj/x86/Debug
+/FingerWIndowsServiceInstaller/bin/x86/Debug
+/FingerWIndowsServiceInstaller/obj/x86/Debug
+/ThirdPartyLibraries/NDP452-KB2901907-x86-x64-AllOS-ENU.exe
+/packages/log4net.2.0.8

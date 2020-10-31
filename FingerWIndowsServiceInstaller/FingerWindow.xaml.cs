@@ -45,8 +45,12 @@ namespace FingerWIndowsServiceInstaller
         }
 
         private void CreateProcess()
-        {                  
-            Thread.Sleep(1000);
+        {
+            Thread.Sleep(3000);
+
+            //启动自动检测安装netframework4.5.2
+
+
             var files = Directory.GetFiles(Environment.CurrentDirectory).Where(w => w.ToLower().EndsWith(".exe") || w.ToLower().EndsWith(".dll"));
             var serviceBase = typeof(ServiceBase);
             foreach (var item in files)
@@ -68,7 +72,7 @@ namespace FingerWIndowsServiceInstaller
                         {
                             //启动服务
                             Process.Start("sc", "start FingerService");
-                        }                        
+                        }
                     }
                     else
                     {
@@ -82,13 +86,13 @@ namespace FingerWIndowsServiceInstaller
                         installer.Commit(savedState);
                         //启动服务
                         Process.Start("sc", "start FingerService");
-                    }                                                       
+                    }
 
                     this.Dispatcher.BeginInvoke((Action)delegate ()
                     {
                         FingerWindowContent = $"指 纹 仪 服 务 启 动 成 功 ！";
                     });
-                           
+
                     Thread.Sleep(1000);
                     break;
                 };
